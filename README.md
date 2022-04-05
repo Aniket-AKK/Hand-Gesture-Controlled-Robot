@@ -9,7 +9,7 @@ The project is all about controlling the real world robot with the help of hand 
 2. Python3 (Libraries-OpenCV,Numpy,math,rospy,time)
 3. ROS(Robot operating system , version-noetic) [Instalation Guide](http://wiki.ros.org/ROS/Installation "ROS") 
 4. Gazebo
-5. Turtlebot3 pakage [To be cloned in src folder of catkin_ws](https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#gazebo-simulation "Turtlebot3")
+5. Turtlebot3 pakage [To be cloned in src folder of workspace](https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#gazebo-simulation "Turtlebot3")
 
 
 
@@ -23,6 +23,7 @@ The turtlebot3 package is cloned. In the python file, we import all the required
 
 * **Controlling the turtlebot3 using diffrent hand_gestures:** <br />
  After detecting the hand gestures we publish the message (velocity or rotaion) corresponding to particular hand gesture to turtlebot3 via topic called cmd_vel
+
 
 
 ***
